@@ -9,7 +9,7 @@ const Counter=()=> {
   return (
     <div>
     <div>Counter - a{Count+1}</div>
-    <button onClick={()=>{setCount(Count+1)}}>increment</button>
+    <button onClick={()=>{setCount(Count+2)}}>increment</button>
     </div>
   )
 }
