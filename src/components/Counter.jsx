@@ -8,8 +8,9 @@ const Counter=()=> {
 
   return (
     <div>
-    <div>Counter - a{Count+1}</div>
+    <div>Counter - {Count}</div>
     <button onClick={()=>{setCount(Count+2)}}>increment</button>
+    <button onClick={()=>{setCount(Count-1)}}>Decrement</button>
     </div>
   )
 }
