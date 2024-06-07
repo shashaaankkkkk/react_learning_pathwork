@@ -16,7 +16,7 @@ const Welcome = () => {
       textAlign: 'center',
     }}>
       <h1>hellos!</h1>
-      <p>This is a simple React component with dark mode toggle.</p>
+      <p> dark mode toggle.</p>
       <button 
         onClick={toggleDarkMode} 
         style={{
