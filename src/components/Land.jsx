@@ -15,7 +15,7 @@ const Welcome = () => {
       borderRadius: '8px',
       textAlign: 'center',
     }}>
-      <h1>Welcome to My Website!</h1>
+      <h1>hellos!</h1>
       <p>This is a simple React component with dark mode toggle.</p>
       <button 
         onClick={toggleDarkMode} 
