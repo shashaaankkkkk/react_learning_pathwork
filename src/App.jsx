@@ -16,13 +16,13 @@ function App() {
   return (
     <>
     <Counter></Counter>
-    </>
-  // <div>
-  //   <h1>All the Learning here! 🔥 </h1>
-  //   <Hello name="something"/>
-  //   <Button/>
-  //   <Object_array_ren/>
-  //   <h1>hello</h1></div>
+
+  <div>
+    <h1>All the Learning here! 🔥 </h1>
+    <Hello name="something"/>
+    <Button/>
+    <Object_array_ren/>
+    <h1>hello</h1></div></>
 )
 }
 
