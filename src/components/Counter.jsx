@@ -1,19 +1,65 @@
-import React, { useState } from 'react'
+import React, { useState } from 'react';
 
-const Counter=()=> {
-    const [Count,setCount] = useState(0)
+const Counter = () => {
+  const [count, setCount] = useState(0);
 
-    console.log(Count)
-  
+  const increment = () => setCount(count + 1);
+  const decrement = () => setCount(count - 1);
+  const reset = () => setCount(0);
 
   return (
-    <div>
-    <div>Counter - {Count}</div>
-    <button onClick={()=>{setCount(Count+2)}}>increment</button>
-    <button onClick={()=>{setCount(Count-1)}}>Decrement</button>
+    <div style={{ textAlign: 'center', padding: '20px' }}>
+      <h1>Counter</h1>
+      <p style={{ fontSize: '24px', fontWeight: 'bold' }}>{count}</p>
+      <div>
+        <button 
+          onClick={increment} 
+          style={{
+            padding: '10px 20px',
+            backgroundColor: '#4CAF50',
+            color: '#fff',
+            border: 'none',
+            borderRadius: '5px',
+            cursor: 'pointer',
+            fontSize: '16px',
+            margin: '5px',
+          }}
+        >
+          Increase
+        </button>
+        <button 
+          onClick={decrement} 
+          style={{
+            padding: '10px 20px',
+            backgroundColor: '#f44336',
+            color: '#fff',
+            border: 'none',
+            borderRadius: '5px',
+            cursor: 'pointer',
+            fontSize: '16px',
+            margin: '5px',
+          }}
+        >
+          Decrease
+        </button>
+        <button 
+          onClick={reset} 
+          style={{
+            padding: '10px 20px',
+            backgroundColor: '#007bff',
+            color: '#fff',
+            border: 'none',
+            borderRadius: '5px',
+            cursor: 'pointer',
+            fontSize: '16px',
+            margin: '5px',
+          }}
+        >
+          Reset
+        </button>
+      </div>
     </div>
-  )
-}
-
+  );
+};
 
 export default Counter;
