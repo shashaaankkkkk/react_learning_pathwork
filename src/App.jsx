@@ -7,6 +7,8 @@ import Button from './components/button'
 import Array_ren from './components/rendering_array'
 import Object_array_ren from './components/object_of_array'
 import Counter from './components/Counter'
+import TodoList from './components/Todo'
+
 
 
 
@@ -16,7 +18,7 @@ function App() {
   return (
     <>
     <Counter></Counter>
-
+< TodoList/>
   <div>
     <h1>All the Learning here! 🔥 </h1>
     <Hello name="something"/>
