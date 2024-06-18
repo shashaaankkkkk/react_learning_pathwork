@@ -8,8 +8,8 @@ import Array_ren from './components/rendering_array'
 import Object_array_ren from './components/object_of_array'
 import Counter from './components/Counter'
 import TodoList from './components/Todo'
-
-
+import WeatherWidget from './components/Weather'
+import NameForm from './components/Form'
 
 
 function App() {
@@ -17,8 +17,10 @@ function App() {
 
   return (
     <>
+    <NameForm/>
     <Counter></Counter>
 < TodoList/>
+<WeatherWidget/>
   <div>
     <h1>All the Learning here! 🔥 </h1>
     <Hello name="something"/>
