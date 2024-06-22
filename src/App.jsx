@@ -10,13 +10,17 @@ import Counter from './components/Counter'
 import TodoList from './components/Todo'
 import WeatherWidget from './components/Weather'
 import NameForm from './components/Form'
-
-
+import Modal from './components/Modal'
+import Card from './components/Card'
+import Accordion from './components/Accodian'
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
+    <Accordion></Accordion>
+    <Modal></Modal>
+    <Card></Card>
     <NameForm/>
     <Counter></Counter>
 < TodoList/>
