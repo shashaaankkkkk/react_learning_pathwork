@@ -3,8 +3,8 @@ import React, { useState } from 'react';
 const Counter = () => {
   const [count, setCount] = useState(0);
 
-  const increment = () => setCount(count + 1);
-  const decrement = () => setCount(count - 1);
+  const increment = () => setCount("hi");
+  const decrement = () => setCount("hello");
   const reset = () => setCount(0);
 
   return (
@@ -25,7 +25,8 @@ const Counter = () => {
             margin: '5px',
           }}
         >
-          Increase
+          add to cart
+          
         </button>
         <button 
           onClick={decrement} 
