@@ -6,4 +6,4 @@ function Hello(props) {
   )
 }
 
-export default Hello
+export default Hello;
